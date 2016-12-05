@@ -1,0 +1,320 @@
+/* 
+    CSS Projeto Automacao Residencial
+    FILIPEFLOP Componentes Eletronicos
+*/
+
+html { background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1,3;
+}
+
+h2 {
+    margin-top: 0em;
+    font-weight: 300;
+}
+
+#nav0 {
+    width: 50%; 
+    position: absolute; 
+    left: 320px; 
+    top: 10px;
+        text-align: left;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 0px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    display: block;
+    margin: em auto;
+    max-width: 15%;
+}
+
+root { 
+    display: block;
+}
+
+#wrapper {
+    padding-top: 10px;
+    position: relative;
+    width: 530px;
+    height: 600px;
+	margin-right: auto;
+	margin-top: 0;
+	margin-left: auto;
+        font-size: 30px;
+        color: ;
+        text-align: center;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#nav1 {
+    width: 30%; 
+    position: absolute; 
+    left: 300px; 
+    top: 130px;
+    font-size: 20px;
+        color: ;
+        text-align: center;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+div.rele1_ligado {
+    position: absolute;
+    right: -110px;
+    top: 220px;
+    width: 300px;
+    height: 206px;
+    border: none;
+		margin:auto;
+    background: url(/Imagens/lamp_on.png) no-repeat left top;
+}
+
+div.rele1_desligado {
+    position: absolute;
+    right: -110px;
+    top: 220px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(/Imagens/lamp_off.png) no-repeat left top;
+}
+
+div.rele2_ligado {
+    position: absolute;
+    right: 130px;
+    top: 400px;
+    width: 64px;
+    height: 64px;
+    border: none;
+    background: url(Imagens/lamp_on.png) no-repeat left top;
+}
+
+div.rele2_desligado {
+    position: absolute;
+    right: 130px;
+    top: 400px;
+    width: 64px;
+    height: 64px;
+    border: none;
+	background: url(/Imagens/lamp_off.png) no-repeat left top;
+}
+
+div.rele3_ligado {
+    position: absolute;
+    right: 130px;
+    top: 400px;
+    width: 64px;
+    height: 64px;
+    border: none;
+    background: url(Imagens/lamp_on.png) no-repeat left top;
+}
+
+div.rele3_desligado {
+    position: absolute;
+    right: 130px;
+    top: 400px;
+    width: 64px;
+    height: 64px;
+    border: none;
+	background: url(/Imagens/lamp_off.png) no-repeat left top;
+}
+
+/*  Margem dos Retângulos */
+
+#div1 {
+	position: absolute;
+	right: 100px;
+	top: 195px;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.30);
+    width: 350px;
+    height: 150px; 
+}
+#div2 {
+	position: absolute;
+	right: 100px;
+	top: 360px;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.30);
+    width: 350px;
+    height: 150px; 
+}
+#div3 {
+	position: absolute;
+	right: -320px;
+	top: 195px;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.30);
+    width: 350px;
+    height: 150px; 
+}
+#div4 {
+	position: absolute;
+	right: -320px;
+	top: 360px;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.30);
+    width: 350px;
+    height: 150px; 
+}
+#div5 {
+	position: absolute;
+	right: 100px;
+	top: 525px;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.30);
+    width: 350px;
+    height: 150px; 
+}
+#div6 {
+	position: absolute;
+	right: -320px;
+	top: 525px;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.30);
+    width: 350px;
+    height: 150px; 
+}
+
+#botao{
+    position: absolute;
+    right: 230px;
+    top: 250px;
+    width: 180px;
+    height: 65px;
+}
+
+.botao {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:28px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.botao:active {
+	position:relative;
+	top:1px;
+}
+
+#botao_2{
+    position: absolute;
+    right: 230px;
+    top: 417px;
+	width: 180px;
+    height: 65px;
+}
+
+.botao_2 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:28px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.botao_2:active {
+	position:relative;
+	top:1px;
+}
+
+#botao_3{
+    position: absolute;
+    right: -200px;
+    top: 250px;
+	width: 180px;
+    height: 65px;
+}
+
+.botao_3 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:28px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.botao_3:active {
+	position:relative;
+	top:1px;
+}
+
+@keyframes colorize {
+0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+ 100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
